@@ -1,0 +1,116 @@
+/*// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+.TotalBodyWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.mainTitleWrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.style_image {
+    border: 2px solid white;
+    margin-top: 30px;
+
+}
+
+.blogNavBarWrapper {
+    width: 100%;
+    height: 40px;
+    background-color: black;   
+}
+
+.mainWrapper {
+    margin-top: 40px;
+    width: 933px;
+    margin: 0 auto;
+    height: 50px;
+    background: black;
+}
+
+.mainWrapper div {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    font-size: 15pt;
+    float: right;
+    margin-top: 12px;
+}
+
+.addImage {
+    color: white;
+    text-decoration: none;
+    width: 120px !important;
+
+}
+
+.mainWrapper div:hover {
+    color: green; 
+    cursor: pointer;  
+}
+
+.mainBodyWrapper {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.mainBodymarcketPanel , .mainBodyitemPanel {
+    width: 1024px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.mainBodyPanelTitle {
+    width: 860px;
+    height: 100%;
+    margin: 150px auto;
+    color:white;
+}
+
+.pictureInfoWrapper {
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    float:left;
+}
+
+
+.uploadImageBodyWrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.mainBodyPanelBody {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.mainWrapper div a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainWrapper div a:after {
+    color:white;
+    text-decoration: none;
+}
+
+.mainWrapper div a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+
+

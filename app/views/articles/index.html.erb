@@ -1,0 +1,49 @@
+<head>
+  <title> 18360의 마켓 이시렵니까 </title>
+<head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        
+    <div class="TotalBodyWrapper">    
+        <div class ="mainTitleWrapper">
+            <%= image_tag "1.jpg" , size:"1024*200", :class => "style_image" %>
+        </div>
+        <div class="mainWrapper">
+            <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
+            <div> marcket </div>
+            <div> <a href='http://blog.naver.com/windrawv'>blog </a></div>
+            <div> item </div>
+            <div> <a href="articles/new"> new </a> </div>
+        </div>
+        <div class="mainBodyPanelTitle">
+             marcket of 18360
+             <div class="mainBodyPanelBody">
+                <% @articles.each do |article| %>
+                    <div class="pictureInfoWrapper">
+                        <div class="pictureInfoPicture">
+                            <%= image_tag article.photo.url ,size:"300*300"%>
+                        </div>
+                    </div>
+                <%end %>
+             </div>
+        </div>
+        <div class="mainBodyPanelTitle">
+            Items
+            <div class="mainBodyPanelBody">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<footer>
+
+</footer>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>18360</title>
+  
+</head>
+<body>
+    <div class='BlogNavBarWrapper'>
+        <span>저장 되었습니다.</span>
+    </div>
+
+    <p>
+      <strong>제목</strong>
+      <%= @article.title %>
+    </p>
+
+    <p>
+      <strong>관심 분야</strong>
+      <%= @article.category %>
+    </p>
+
+     
+    <p>
+      <strong>설명</strong>
+      <%= @article.text %>
+    </p>
+
+    <p>
+      <%= image_tag @article.photo.url(:small) %>
+    </p>
+
+</body>
+</html>
